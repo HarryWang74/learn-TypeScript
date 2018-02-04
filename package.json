@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "dev": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/HarryWang74/learning-TypeScript/issues"
   },
-  "homepage": "https://github.com/HarryWang74/learning-TypeScript#readme"
+  "homepage": "https://github.com/HarryWang74/learning-TypeScript#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
 }
